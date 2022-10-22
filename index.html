@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,600&display=swap" rel="stylesheet"> 
+    <title>Ate</title>
+</head>
+<style>
+    *{
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+    } 
+
+    /*Header*/
+
+    header{
+        background: black;
+        text-align: center;
+        padding: 1%;
+    }
+
+    header h1{
+        font-size: 50px;
+        color: white;
+    }
+
+    /*Main*/
+
+    /*
+    */
+    .container{
+        display: block;
+        margin-top: 6.5%;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+        border: 3px solid black;
+        background: rgba(255, 192, 203, 0.823);
+        border-radius: 10px;
+        font-size: 23px;
+    }
+
+    /*Parallax Effect*/
+
+    .wrapper_outer{}
+    .wrapper{}
+    .parallax_section{
+        min-height: 100vh;
+        position: relative;
+    }
+    .parallax_bg{
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-size: cover;
+        background-position: center center;
+        z-index: -1;
+        min-height: 100vh;
+    }
+
+    .imgate{
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*Picture Netflix Stuff*/
+
+    .main{
+        padding-top: 10%;
+        display: block;
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        align-self: center;
+        justify-content: left;
+    }
+    
+    .image img{
+        margin: 15px;
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        border-radius: 5px;
+        border: 5px solid white;
+    }
+
+    .text p{
+        color: white;
+    }
+
+    .titlemain h1{
+        color: white;
+        text-align: center;
+        font-size: 100px;
+    }
+
+    .gif{
+        width: 100%;
+    }
+
+    @media only screen and (max-width: 600px) {
+        header h1{
+            font-size: 30px;
+        }
+
+        .container{
+            margin-top: 30%;
+            width: 85%;
+            border: 3px solid black;
+            border-radius: 10px;
+            font-size: 18px;
+            height: 550px;
+            overflow: auto;
+            background: rgba(255, 192, 203, 0.628);
+        }
+
+        .main{
+            display: block;
+            width: 71%;
+        }   
+
+        .gif img{
+            vertical-align: middle;
+        }
+    }
+
+
+</style>
+<body>
+    <div class="wrapper_outer">
+        <div class="wrapper">
+            <div class="parallax_section">
+                <div class="parallax_bg" style="background: url(/img/icon.jpg);"></div>
+                <header>
+                    <h1>Si Ate Yumul</h1>
+                </header>
+                <div class="container">
+                    <mainmsg>
+                        <p>First of all I would like to apologize... to be honest muntikan ko na makalimutan bday mo gulat nalang ako may bumati sayo ng 6:50A.M and ayun dali dali na akong gumawa ng code natoh HAHAHAHA. So ito na nga I just want to say happiest birthday to my bestfriend/ate/my special friend, I always believe that you deserve more ate, by means ng deserve I mean you deserve more to be treated fairly by the people you give more to them napaka caring and mabait mong tao ate and I madly respect that like super, matagal na saakin nawala ung word na bait (I mean few nalang to those who deserve it nalang like you) but I always give more too you ate if you know lang (well now you know). And also why I decided to make a website about you... Simply because you are special too me and you deserve it always remember that, I wish to you and your family to have a financial stable life ung to the point nabibili nio mga necessities nio in life, and also I would like to add na how good na anak/ate you are too your family ate. For me swerte sila na may anak silang katulad mo... napaka strong mo ate araw araw I admire you for being that strong person kahit na lagi kang natutumba infact feel ko most of the time you dont need me or us kase nahahandle mo siya (siguro) on your own, pero sometimes decisions always comes with a friend din if you need a choice talk with us sometimes (hope na gets mo). so ayun wag na tayo mag iyakan AHAHAH, you have a birthday to enjoy so un nga enjoy ka nga lang like I said and Happy birthday too you ate... I'm always here for you, take care...</p>
+                    </message>
+                </div>
+            </div>
+            <div class="parallax_section">
+                <div class="parallax_bg" style="background: black;"></div>
+                    <h1 style="color: white; text-align:center; font-size: 50px; padding-top: 10%;">Happy 19th Birthday</h1>
+                    <div class="main">
+                        <!--1-->
+                        <div class="image">
+                            <img src="/img/ate1.jpg" alt="">
+                        </div>
+                        <!--2-->
+                        <div class="image">
+                            <img src="/img/ate2.jpg" alt="">
+                        </div>
+                        <!--3-->
+                        <div class="image">
+                            <img src="/img/ate3.jpg" alt="">
+                        </div>
+                        <!--4-->
+                        <div class="image">
+                            <img src="/img/ate4.jpg" alt="">
+                        </div>
+                        <!--5-->
+                        <div class="image">
+                            <img src="/img/ate5.jpg" alt="">
+                        </div>
+                    </div>
+                    <img class="gif" src="/img/bday-601.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
